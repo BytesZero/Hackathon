@@ -9,13 +9,13 @@ import android.widget.TextView;
 import com.huahuacaocao.hhcc_common.base.BaseFragment;
 import com.segmentfault.hackathon.R;
 
-public class MyPlantFragment extends BaseFragment {
+public class ProductFragment extends BaseFragment {
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_my_plant, container, false);
+        return inflater.inflate(R.layout.fragment_product, container, false);
     }
 
     @Override

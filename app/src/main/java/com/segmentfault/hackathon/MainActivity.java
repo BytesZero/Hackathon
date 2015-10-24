@@ -9,9 +9,9 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.segmentfault.hackathon.fragment.BbsFragment;
-import com.segmentfault.hackathon.fragment.MyPlantFragment;
-import com.segmentfault.hackathon.fragment.ShopFragment;
+import com.segmentfault.hackathon.fragment.TypeFragment;
+import com.segmentfault.hackathon.fragment.ProductFragment;
+import com.segmentfault.hackathon.fragment.QRCodeFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -106,9 +106,9 @@ public class MainActivity extends FragmentActivity {
     private void initData() {
         mainActivity=this;
 
-        fTabs.add(new MyPlantFragment());
-        fTabs.add(new ShopFragment());
-        fTabs.add(new BbsFragment());
+        fTabs.add(new ProductFragment());
+        fTabs.add(new QRCodeFragment());
+        fTabs.add(new TypeFragment());
         mAdapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
 
             @Override
