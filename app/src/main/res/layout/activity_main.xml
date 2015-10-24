@@ -1,30 +1,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@color/app_color"
-              android:orientation="vertical">
+              android:orientation="vertical" >
 
-    <include layout="@layout/layout_titlebar"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/app_color" >
+    </android.support.v4.view.ViewPager>
 
+    <include layout="@layout/line_fill"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/app_content_color"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:layout_height="56dp"
+        android:orientation="horizontal" >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Label"
-            android:textSize="@dimen/textsize_14"
-            android:textColor="@color/text_black_color"/>
+        <ImageView
+            android:id="@+id/tab_img_my_plant"
+            style="@style/MyTabStyle"
+            android:src="@drawable/tab_my_plant"/>
+        <ImageView
+            android:id="@+id/tab_img_shop"
+            style="@style/MyTabStyle"
+            android:src="@drawable/tab_shop"/>
+        <ImageView
+            android:id="@+id/tab_img_bbs"
+            style="@style/MyTabStyle"
+            android:src="@drawable/tab_bbs"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="September 14th"
-            android:textSize="@dimen/textsize_12"
-            android:textColor="@color/text_gary_color"/>
     </LinearLayout>
+
 </LinearLayout>

@@ -2,13 +2,38 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- MD配置dialog-->
-        <!--<item name="md_title_color">@color/app_color</item>-->
-        <!--<item name="md_content_color">@color/text_gary_color</item>-->
-        <!--<item name="md_positive_color">@color/app_color</item>-->
-        <!--<item name="md_neutral_color">@color/app_color</item>-->
-        <!--<item name="md_negative_color">@color/app_color</item>-->
-        <!--<item name="md_widget_color">@color/app_color</item>-->
+        <item name="md_title_color">@color/app_color</item>
+        <item name="md_content_color">@color/text_gary_color</item>
+        <item name="md_positive_color">@color/app_color</item>
+        <item name="md_neutral_color">@color/app_color</item>
+        <item name="md_negative_color">@color/app_color</item>
+        <item name="md_widget_color">@color/app_color</item>
         <!-- MD配置dialog End-->
+    </style>
+
+    <!-- Tab的样式-->
+    <style name="MyTabStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/app_marge_10</item>
+    </style>
+
+    <!--  ListView的样式 -->
+    <style name="ListViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/app_content_color</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <!-- 页面的背景统一样式 -->
+    <style name="PageContentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/app_content_color</item>
+        <item name="android:orientation">vertical</item>
     </style>
 
 </resources>
