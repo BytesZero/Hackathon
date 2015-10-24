@@ -6,6 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.huahuacaocao.hhcc_common.base.BaseActivity;
+import com.segmentfault.hackathon.activitys.AAAActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -44,7 +45,7 @@ public class MainActivity extends BaseActivity {
 
                     @Override
                     public void onClick(View v) {
-                        finish();
+                        baseStartActivity(AAAActivity.class);
                     }
                 });
     }

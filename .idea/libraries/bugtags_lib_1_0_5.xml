@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="bugtags-lib-1.0.5">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/hhcc_common/build/intermediates/exploded-aar/com.bugtags.library/bugtags-lib/1.0.5/res" />
-      <root url="jar://$PROJECT_DIR$/hhcc_common/build/intermediates/exploded-aar/com.bugtags.library/bugtags-lib/1.0.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.bugtags.library/bugtags-lib/1.0.5/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.bugtags.library/bugtags-lib/1.0.5/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

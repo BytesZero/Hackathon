@@ -17,6 +17,7 @@ import com.huahuacaocao.hhcc_common.base.utils.TitleBarUtils;
  * Base Activity 所有的Activity都继承自这个类
  * 上下文统一用mActivity
  */
+
 public class BaseActivity extends AppCompatActivity {
     //透明状态栏
     protected SystemBarTintManager mTintManager;
@@ -42,15 +43,21 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        //注：回调 1
+        Bugtags.onResume(this);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        //注：回调 2
+        Bugtags.onPause(this);
     }
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
+        //注：回调 3
+        Bugtags.onDispatchTouchEvent(this, event);
         return super.dispatchTouchEvent(event);
     }
 
@@ -100,3 +107,4 @@ public class BaseActivity extends AppCompatActivity {
         startActivityForResult(intent, requestCode);
     }
 }
+
