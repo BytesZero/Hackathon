@@ -1,0 +1,2 @@
+include ':app', ':zsl_common'
+project(':zsl_common').projectDir = new File('hhcc_common')

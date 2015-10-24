@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用的Buttong的Style-->
+    <style name="ButtonStyleCommon">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/text_green_color</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/app_marge_16</item>
+        <item name="android:layout_marginBottom">@dimen/app_page_marge</item>
+        <item name="android:layout_marginLeft">@dimen/app_page_marge</item>
+        <item name="android:layout_marginRight">@dimen/app_page_marge</item>
+        <item name="android:background">@drawable/common_button</item>
+    </style>
+
+    <!-- EditText的统一样式 -->
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/common_edittext_bg</item>
+        <item name="android:padding">@dimen/app_marge_10</item>
+        <item name="android:textColor">@color/text_black_color</item>
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:layout_marginLeft">@dimen/app_page_marge</item>
+        <item name="android:layout_marginRight">@dimen/app_page_marge</item>
+    </style>
+
+    <!-- 基本的TextView的Style-->
+    <style name="BaseTextViewCommon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/app_marge_5</item>
+        <item name="android:layout_marginBottom">@dimen/app_marge_5</item>
+        <item name="android:layout_marginLeft">@dimen/app_page_marge</item>
+        <item name="android:layout_marginRight">@dimen/app_page_marge</item>
+    </style>
+    <!--通用的textview的灰色12号字体-->
+    <style name="TextViewStyleGray12Common" parent="BaseTextViewCommon">
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:textColor">@color/text_gary_color</item>
+    </style>
+    <!--通用的textview的灰色14号字体-->
+    <style name="TextViewStyleGray14Common" parent="BaseTextViewCommon">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/text_gary_color</item>
+    </style>
+
+    <!--通用的textview的黑色12号字体-->
+    <style name="TextViewStyleBlack12Common" parent="BaseTextViewCommon">
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:textColor">@color/text_black_color</item>
+    </style>
+    <!--通用的textview的黑色14号字体-->
+    <style name="TextViewStyleBlack14Common" parent="BaseTextViewCommon">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/text_black_color</item>
+    </style>
+
+    <style name="TextViewStyleWhite14Common" parent="BaseTextViewCommon">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/text_white_color</item>
+    </style>
+</resources>

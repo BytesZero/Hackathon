@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <!--titlebar -->
+    <color name="title_bar_text_color">#cc000000</color>
+    <color name="title_bar_text_color_white">#FFFFFFFF</color>
+    <color name="title_bar_text_color_black">#FF000000</color>
+    <color name="sub_title_bar_text_color">#80000000</color>
+    <color name="sub_title_bar_text_color_white">#80FFFFFF</color>
+    <!-- 线条的颜色 -->
+    <color name="line_color">#CCCCCC</color>
+    <!-- 字体-->
+    <color name="text_black_color">#212121</color>
+    <color name="text_white_color">@android:color/white</color>
+    <color name="text_gary_color">#7C7C7C</color>
+    <color name="text_green_color">#4CAF50</color>
+    <!-- 红色字体 -->
+    <color name="text_red_color">#E90000</color>
+    <!-- 按钮-->
+    <color name="button_bg_color">#FFFFFF</color>
+    <color name="button_bg_pressed_color">#feefefef</color>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 有间距的竖直线条-->
+    <TextView
+        android:id="@+id/line_tv_line"
+        android:layout_width="@dimen/line_height"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/app_marge_10"
+        android:layout_marginBottom="@dimen/app_marge_10"
+        android:background="@color/line_color" />
+
+</merge>

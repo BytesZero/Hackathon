@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- MD配置dialog-->
+        <!--<item name="md_title_color">@color/app_color</item>-->
+        <!--<item name="md_content_color">@color/text_gary_color</item>-->
+        <!--<item name="md_positive_color">@color/app_color</item>-->
+        <!--<item name="md_neutral_color">@color/app_color</item>-->
+        <!--<item name="md_negative_color">@color/app_color</item>-->
+        <!--<item name="md_widget_color">@color/app_color</item>-->
+        <!-- MD配置dialog End-->
+    </style>
+
+</resources>

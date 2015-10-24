@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="SelectImage">
+        <item>拍照</item>
+        <item>相册选取</item>
+    </array>
+</resources>
